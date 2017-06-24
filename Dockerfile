@@ -10,5 +10,4 @@ RUN cd cpuminer-opt && ./build.sh  \
     && make install \
     && cd .. \
     && rm -rf cpuminer-opt
-
-CMD ["cpuminer","-a","cryptonight","-o","stratum+tcp://xmr.pool.minergate.com:45560","-u","bluesky.os@yandex.com","-p","x"]
+    
